@@ -3,7 +3,6 @@ import sys, re, math
 queue = [] 
 # What are the original cards, will not be modified
 cardDict = {}
-valueDict = {}
 with open(sys.argv[1]) as file:
     lines = file.readlines()
     # Mark all the cards that exist, and add them to the queue
